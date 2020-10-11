@@ -1,20 +1,19 @@
 <template>
-  <h1>Learning Linux Command</h1>
+  <Terminal />
 </template>
 
 <script>
+import Terminal from '@/components/Terminal/Terminal';
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    Terminal
+  }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+@import "assets/css/reset.css";
+@import "assets/css/style.css";
 </style>
