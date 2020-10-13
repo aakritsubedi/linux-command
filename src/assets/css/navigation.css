@@ -1,0 +1,44 @@
+.navigation {
+  display: flex;
+  color: #ffffff;
+  font-size: large;
+  padding: 10px 8px;
+  align-items: center;
+  background-color: rgb(31, 31, 31);
+  justify-content: space-between;
+}
+.nav-left {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-left .tabs span {
+  margin: 0 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.nav-left .icon span{
+  margin: 0 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.nav-left .selected-tab {
+  margin-left: 25px;
+}
+.nav-right span{
+  margin: 0 8px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) { 
+  .nav-center {
+    display: none;
+  }
+}
+@media only screen and (max-width: 400px) { 
+  .nav-right {
+    display: none;
+  }
+  .icon {
+    display: none;
+  }
+}
