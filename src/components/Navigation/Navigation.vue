@@ -2,7 +2,9 @@
   <div class="navigation">
     <div class="nav-left">
       <div class="tabs">
-        <span>Learning Linux Command</span>
+        <router-link to='/home'>
+          <span>Learning Linux</span>
+        </router-link>
       </div>
       <div class="icon">
         <span class="fa fa-github"></span>
@@ -24,6 +26,8 @@
       <span class="fa fa-battery-three-quarters"></span>
     </div>
   </div>
+  <br>
+  <br>
 </template>
 
 <script>

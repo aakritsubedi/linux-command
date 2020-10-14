@@ -1,0 +1,3 @@
+export const tableOfContent = {
+  uname: { sn: 1, command: 'uname', desc: 'reports basic information about a computer\'s software and hardware', description: 'uname (short for unix name) is a computer program in Unix and Unix-like computer operating systems that prints the name, version and other details about the current machine and the operating system running on it. uname command prints the name, version and other details about the current machine and the operating system running on it.', link: 'https://en.wikipedia.org/wiki/Uname', file: 'docs/uname.gif' },
+}

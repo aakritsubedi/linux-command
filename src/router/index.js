@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 
 import Home from "@/views/Home";
 import Intro from "@/views/Intro";
+import Command from "@/views/Command";
 import Terminal from "@/views/Terminal";
 
 
@@ -20,6 +21,11 @@ const routes = [
     path: "/intro",
     name: "Intro",
     component: Intro,
+  },
+  {
+    path: "/command/:command",
+    name: "Command",
+    component: Command,
   },
 ];
 
