@@ -42,5 +42,5 @@ export default {
 </script>
 
 <style scoped>
-@import "./../../assets/css/command.css";
+@import "./../assets/css/command.css";
 </style>
